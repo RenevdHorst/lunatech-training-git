@@ -1,0 +1,19 @@
+Commands I used:
+
+git clone https://github.com/MrRene/lunatech-training-git.git
+
+git status
+
+git add CommandsIUsed.txt
+
+git add README.md
+
+git status -s
+
+cat .gitignore // Haven’t made that file yet.
+
+git diff
+
+git diff —staged
+
+git diff —cached
