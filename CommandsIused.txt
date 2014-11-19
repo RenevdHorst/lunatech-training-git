@@ -23,3 +23,5 @@ rm test.txt // remove from working directory
 git rm test.txt // remove from staged directory
 
 git rm -- cached filename // not used only read
+
+git log
