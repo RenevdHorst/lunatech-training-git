@@ -39,3 +39,12 @@ git remote rm removeThisRemoteRepo
 
 #Tags
 
+git tag // lists all tags
+git tag -l 'v1.*' // search for tags that start with v1.
+git tag -a v1.4 -m "This is version 1.4" // annotated tag v1.4 with a message
+git tag show v1.4
+git tag easy // lightweight tag
+git tag -a v1.4 9fceb02 //Add tag to commit with specified checksum
+
+#Configuration
+git config --global alias.co(the alias) checkout // aliases
