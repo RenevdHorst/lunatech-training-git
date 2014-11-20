@@ -51,6 +51,8 @@ git config --global alias.co(the alias) checkout // aliases
 
 #Branching
 
+git branch // view all branches
 git branch newbranch
 git checkout branch // move to a new branch
-git merge newbranch //first go to branch you want to merge newbranch to
+git merge newbranch // first go to branch you want to merge newbranch to
+git mergetool // helps resolve mergeconflicts
