@@ -56,3 +56,15 @@ git branch newbranch
 git checkout branch // move to a new branch
 git merge newbranch // first go to branch you want to merge newbranch to
 git mergetool // helps resolve mergeconflicts
+
+#Synchronization
+git fetch origin // sync local working repo with online repo
+
+#Pushing
+git push (remote repo) (branch) // push branch to remote repo
+
+#Pulling
+git pull //get online repo
+
+#Rebase
+
