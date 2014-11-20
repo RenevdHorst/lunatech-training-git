@@ -48,3 +48,9 @@ git tag -a v1.4 9fceb02 //Add tag to commit with specified checksum
 
 #Configuration
 git config --global alias.co(the alias) checkout // aliases
+
+#Branching
+
+git branch newbranch
+git checkout branch // move to a new branch
+git merge newbranch //first go to branch you want to merge newbranch to
