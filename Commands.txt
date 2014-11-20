@@ -1,37 +1,21 @@
-Commands I used:
-
+Commands:
 git clone https://github.com/MrRene/lunatech-training-git.git
-
 git status
-
 git add CommandsIUsed.txt
-
 git add README.md
-
 git status -s
-
 cat .gitignore // Haven’t made that file yet.
-
 git diff
-
 git diff —staged
-
 git diff —cached
-
 rm test.txt // remove from working directory
-
 git rm test.txt // remove from staged directory
-
 git rm -- cached filename // not used only read
-
 git log
-
 git log -p -2 //shows last two commits only
-
 git --graph
-
 git commit --amend // replaces the last commit with stage directory
-
 git reset HEAD file.txt
-
 git checkout --text.txt // revert text.txt to the way it was at the last commit
+git push origin master
+git remote show origin
