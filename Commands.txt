@@ -1,5 +1,11 @@
 Commands:
+
+#Cloning:
+
 git clone https://github.com/MrRene/lunatech-training-git.git
+
+#Managing Directories
+
 git status
 git add CommandsIUsed.txt
 git add README.md
@@ -14,8 +20,22 @@ git rm -- cached filename // not used only read
 git log
 git log -p -2 //shows last two commits only
 git --graph
+
+#Removing and Checkout
+
 git commit --amend // replaces the last commit with stage directory
 git reset HEAD file.txt
 git checkout --text.txt // revert text.txt to the way it was at the last commit
+
+#Pushing
+
 git push origin master
+
+#Remote repositories
+
 git remote show origin
+git remote rename oldName newName
+git remote rm removeThisRemoteRepo
+
+#Tags
+
